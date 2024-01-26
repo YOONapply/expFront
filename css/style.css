@@ -1,3 +1,10 @@
+hr {
+  border: none;
+  border-top: 1px solid #000;
+  width: 100%; /* 가로 길이 조절 */
+  margin: 10px auto; /* 가운데 정렬을 위한 마진 설정 */
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   color: #0c0c0c;
