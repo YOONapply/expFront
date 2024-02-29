@@ -262,6 +262,10 @@ body {
   height: auto;
 }
 
+.header_section {
+  background-color: #020715;
+}
+
 .header_section .container-fluid {
   padding-right: 25px;
   padding-left: 25px;
@@ -279,28 +283,32 @@ body {
 }
 
 .nav-link {
-  font-size: 18px;
+  font-size: 25px;
   padding: 10px 30px;
-  color: black;
+  color: white;
   text-align: center;
   text-transform: uppercase;
 }
 
 .nav-link:hover{
-  color: white;
+  color: gray;
+  transition: all 0.4s;
   cursor: pointer;
 }
 
+.blackbtn{
+  color:black;
+}
+
 .btn {
-  margin-top: 5px;
-  color: #3c3e70;
-  font-size: 17px;
-  padding: 3px 10px;
-  border: 2px solid black;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  
   background-color: transparent;
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-weight: bold;
+  
   position: relative;
   transition: all 0.4s;
   overflow: hidden;
@@ -373,10 +381,9 @@ a:focus {
 }
 
 .navbar-brand span {
-  font-size: 24px;
+  font-size: 40px;
   font-weight: 700;
-  color: #ffffff;
-  text-transform: uppercase;
+  color: white;
 }
 
 .custom_nav-container {
